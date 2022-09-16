@@ -19,20 +19,29 @@
 	{# Buttons #}
 	<div class="row my-5 mx-auto justify-content-evenly col-10">
 
-		<div class="col-3 text-center">
+		<div class="col-4 text-center">
 			<a class="btn btn-outline-dark " href="{{ path('create_chambre') }}">Ajouter une chambre</a>
 		</div>
 
-		<div class="col-3 text-center">
-			<a class="btn btn-outline-dark " href="{{ path('show_archives') }}">Voir les archives</a>
+		<div class="col-4 text-center">
+			<a class="btn btn-outline-dark " href="{{ path('show_archives') }}">Voir les archives Membre</a>
 		</div>
 
-		<div class="col-3 text-center">
+		<div class="col-4 text-center">
 			<a class="btn btn-outline-dark " href="{{ path('show_contact') }}">Voir les demandes</a>
 		</div>
 
-		<div class="col-3 text-center">
-			<a class="btn btn-outline-dark " href="{{ path('show_slider') }}">Voir le carousel</a>
+
+	</div>
+
+	<div class="row my-5 mx-auto justify-content-evenly col-10">
+
+		<div class="col-6 text-center">
+			<a class="btn btn-outline-dark " href="{{ path('show_slider') }}">Gestion du carousel</a>
+		</div>
+
+		<div class="col-6 text-center">
+			<a class="btn btn-outline-dark " href="{{ path('show_backoffice_chambre') }}">Gestion des chambres</a>
 		</div>
 
 	</div>
